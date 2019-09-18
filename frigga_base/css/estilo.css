@@ -187,6 +187,21 @@ display: flex;
 justify-content: flex-start;
 align-items: center;
 }
+.titulos{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+}
+.titulos h1{
+    margin-right: 240px;
+}
+.titulos h2{
+    margin-left: 57px;
+    align-self: flex-end;
+    font-size: 30px;
+
+}
 .banner-txt{
     font-family: var(--fonte2);
     font-size: 35px;
