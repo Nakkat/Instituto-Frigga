@@ -1,2 +1,2 @@
 # institutofrigga
-Projeto de marmitas gourmet feito para o trabalho de conclusão do curso CODE Experience
+Projeto de produtos orgânicos sendo feito para o trabalho de conclusão do curso CODE Experiencie
