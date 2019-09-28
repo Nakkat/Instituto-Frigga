@@ -11,6 +11,7 @@ padding: 0;
 --laranja: #FF7B0A;
 --fonte1: 'Barlow Condensed', sans-serif;
 --fonte2: 'Quicksand', sans-serif;
+--branco: #ffffff;
 }
 
 header {
@@ -832,131 +833,140 @@ flex-direction: column;
 }
 /*Miguel end*/
 /* PARTE DO NAKKAT */
-
 .container_login {
-font-family: var(--fontbarlow);
-display: flex;
-width: 1200px;
-margin: auto;
+    font-family: var(--fontbarlow);
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
 }
-
 .esquerda_login {
-width: 600px;
-display: flex;
-flex-direction: column;
-align-items: center;
-font-family: var(--fonte1);
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--fonte1);
+    background-color: var(--branco);
+    justify-content: center;
+    height: 800px;
+    margin-top: 60px;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.75);
 }
 
 .esquerda_login img {
-width: 100px;
-padding-top: 15px;
+    width: 100px;
 }
-
+.esquerda_login h1{
+    margin-bottom: 15px;
+    font-family: var(--fonte1);
+}
+.direita_login h1{
+    font-family: var(--fonte1);
+}
 #form_login {
-display: flex;
-flex-direction: column;
-align-items: center;
-margin: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 300px;
 }
 
 #form_login span {
-display: inline-flex;
-width: 100px;
+    display: inline-flex;
+    width: 100px;
 }
 
 .direita_login {
-width: 600px;
-display: flex;
-flex-direction: column;
-align-items: center;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--branco);
+    margin-top: 60px;
+    margin-bottom: 100px;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.75);
 }
 
 .radio_login {
-margin: auto;
-display: flex;
-justify-content: center;
-width: 250px;
-font-size: 20px;
-padding: 15px;
-font-family: var(--fonte1);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    font-size: 20px;
+    padding: 15px;
+    font-family: var(--fonte1);
 }
 
 .formulario_login label {
-padding: 5px;
-display: flex;
-flex-direction: column;
-font-family: var(--fonte1);
-font-size: 20px;
-width: 300px;
-padding-bottom: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte1);
+    font-size: 20px;
+    width: 300px;
+    padding-bottom: 10px;
 }
 
-.formulario_login label,
-h3 {
-margin: auto;
-font-family: var(--fonte1);
+.formulario_login label, h3 {
+    margin: auto;
+    font-family: var(--fonte1);
 }
 
 #form_cadastro {
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 #form_cadastro span {
-display: inline-flex;
-width: 100px;
+    display: inline-flex;
+    width: 100px;
 }
 
-.btn_login,
-.btn_login2 {
-margin: 30px;
-font-size: 1.0em;
-border-radius: 4px;
-border: none;
-background-color: var(--verde);
-width: 180px;
-font-size: 1.2em;
-color: white;
-cursor: pointer;
-text-transform: uppercase;
-padding: 10px;
-font-family: var(--fonte1);
+.btn_login, .btn_login2 {
+    margin: 30px;
+    font-size: 1.0em;
+    border-radius: 4px;
+    border: none;
+    background-color: var(--verde);
+    width: 180px;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 10px;
+    font-family: var(--fonte1);
 }
 
 .btn_login2 {
-margin-left: 60px;
-/*alterado mig*/
+    margin-left: 60px;
 }
 
 .input_login {
-padding: 7px;
-margin: 10px;
-border: #3dca41 solid 1px;
-border-radius: 4px;
+    padding: 7px;
+    margin: 10px;
+    border: #3dca41 solid 1px;
+    border-radius: 4px;
 }
 
 @media (max-width: 1024px) and (min-width: 768px) {
-.esquerda_login {
-width: 25%;
-}
+    .esquerda_login {
+        width: 25%;
+    }
 }
 
 @media (max-width: 767px) and (min-width: 376px) {
-.container_login {
-display: flex;
-/*alterado mig*/
-flex-direction: column;
-/*alterado mig*/
-}
-.direita_login {
-display: flex;
-/*alterado mig*/
-flex-direction: column;
-/*alterado mig*/
-align-items: center;
-/*alterado mig*/
-}
+    .container_login {
+        display: flex;
+        flex-direction: column;
+    }
+    .direita_login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 /* END NAKKAT */
 /* Gus Table */
