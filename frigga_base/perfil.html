@@ -42,35 +42,42 @@
 
 
     <main>
-        <section class="profile">
-            <h1>Perfil</h1>
-            <div class="profile_icone">
-                <img src="IMGS/iconperfil.png" alt="icone usuario">
-            </div>
-            <div class="profile_dados">
-                <form method="POST" id="form_dados">
-                    <label>Nome
-                        <input type="text" placeholder="Digite seu nome..." name="nome" aria-label="digitar nome"
-                            required>
-                    </label>
-                    <label>Celular
-                        <input type="tel" placeholder="Digite seu telefone..." name="telefone"
-                            aria-label="digitar telefone" required>
-                    </label>
-                    <label>Email
-                        <input type="email" placeholder="Digite seu email..." name="email" aria-label="digitar email"
-                            required>
-                    </label></br>
-                    <label><p>Biografia</p>
+        <section class="main_perfil">
+            <section class="profile">
+                <h1>Perfil</h1>
+                <div class="profile_icone">
+                    <img src="IMGS/user.svg" alt="icone usuario">
+                </div>
+
+            </section>
+            <section>
+                <div class="profile_dados">
+                    <form method="POST" id="form_dados">
+                        <label>Nome
+                            <input type="text" placeholder="Digite seu nome..." name="nome" aria-label="digitar nome"
+                                required>
+                        </label>
+                        <label>Celular
+                            <input type="tel" placeholder="Digite seu telefone..." name="telefone"
+                                aria-label="digitar telefone" required>
+                        </label>
+                        <label>Email
+                            <input type="email" placeholder="Digite seu email..." name="email"
+                                aria-label="digitar email" required>
+                        </label></br>
+                        <label>
+                            <p>Biografia</p>
                             <!--formato CSS-->
                             <textarea name="biografia" style="height: 80px;" placeholder="Biografia..."
                                 aria-label="escrever biografia"></textarea>
                         </label>
-                    <div>
-                        <button type="submit" class="btn_editar_perfil" alt="botao editar perfil">Editar Perfil</button>
-                    </div>
-                </form>
-            </div>
+                        <div>
+                            <button type="submit" class="btn_editar_perfil" alt="botao editar perfil">Editar
+                                Perfil</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
         </section>
 
 
@@ -108,7 +115,8 @@
                         <input type="text" name="preco" aria-label="incluir preço por quilo"
                             placeholder="Preço por Kg..." required>
                     </label>
-                    <button type="submit" alt="botao cadastrar produtos" class="btn_cadastrar_produto">Cadastrar</button>
+                    <button type="submit" alt="botao cadastrar produtos"
+                        class="btn_cadastrar_produto">Cadastrar</button>
                 </form>
             </div>
 
@@ -125,7 +133,7 @@
                         <th class="void "></th>
                     </thead>
                     <tbody>
-                        <tr >
+                        <tr>
                             <td>
                                 <div id="table_img"></div>
                             </td>
@@ -232,7 +240,8 @@
                 <div class="imagem_incluir">
                     <p>Clique para</br>
                         incluir Imagem</p>
-                    <button type="submit" alt="botao incluir imagem" class="btn_incluir_imagem" style="margin-right: 8px;">+</button>
+                    <button type="submit" alt="botao incluir imagem" class="btn_incluir_imagem"
+                        style="margin-right: 8px;">+</button>
                 </div>
                 <form method="POST" id="form_recipes">
                     <label>
@@ -250,21 +259,21 @@
                     </select>
                     <div class="box">
                         <label>
-                                <!--formato CSS-->
-                                    <textarea name="ingredientes" placeholder="Ingredientes..."
-                                    aria-label="incluir ingredientes"></textarea>
-                                </label>
+                            <!--formato CSS-->
+                            <textarea name="ingredientes" placeholder="Ingredientes..."
+                                aria-label="incluir ingredientes"></textarea>
+                        </label>
                         <label>
-                                    <!--formato CSS-->
-                                    <textarea name="biografia" placeholder="Modo de preparo..."
-                                    aria-label="incluir receita"></textarea>
-                                </label>
+                            <!--formato CSS-->
+                            <textarea name="biografia" placeholder="Modo de preparo..."
+                                aria-label="incluir receita"></textarea>
+                        </label>
                     </div>
 
                 </form>
                 <button type="submit" alt="botao cadastrar receitas" class="btn_cadastrar_receita">Inserir receita
-                        <div id="bg"></div>
-               </button>
+                    <div id="bg"></div>
+                </button>
 
             </div>
 

@@ -669,12 +669,10 @@ font-family: var(--fonte1);
 .profile,
 .product_recipes {
 /*Classe das sections*/
-width: 1200px;
+width: 500px;
 /* background-color: aqua; */
 margin: auto;
-display: flex;
 /*product_recipes 2ª section*/
-justify-content: center;
 padding-top: 50px;
 }
 
@@ -700,6 +698,7 @@ align-self: center;
 
 .profile_icone img {
 width: 240px;
+color: var(--verde);
 }
 
 .profile_dados form,
@@ -851,7 +850,6 @@ display: none;
 }
 .profile {
 width: 600px;
-display: flex;
 flex-direction: column;
 align-items: center;
 }
@@ -1027,11 +1025,6 @@ color: red;
 background-color: white;
 color: black;
 height: 30px;
-;
-}
-
-.void {
-background-color: white;
 }
 
 td .verreceitas {
@@ -1095,13 +1088,13 @@ font-family: var(--fonte1);
 .profile,
 .product_recipes {
 /*Classe das sections*/
-width: 1200px;
+width: 500px;
 /* background-color: aqua; */
 margin: auto;
-display: flex;
 /*product_recipes 2ª section*/
-justify-content: center;
-padding-top: 50px;
+padding-top: 0px;
+margin-right: 200px;
+margin-top:60px;
 }
 
 .product_recipes {
@@ -1113,9 +1106,10 @@ width: 1200px;
 .profile h1 {
 text-align: center;
 font-family: var(--fonte1);
-font-size: 40px;
+font-size: 45px;
 font-style: normal;
 color: black;
+margin-bottom: 10px;
 }
 
 .profile_icone {
@@ -1125,12 +1119,12 @@ align-self: center;
 }
 
 .profile_icone img {
-width: 240px;
+width: 350px;
+margin-top:56px;
 }
 
 .profile_dados form,
 .card_profile2 form {
-display: flex;
 flex-direction: column;
 align-items: center;
 }
@@ -1138,6 +1132,11 @@ align-items: center;
 .profile_dados {
 width: 500px;
 align-items: center;
+margin-top: 70px;
+padding: 20px;
+background-color: white;
+border-radius: 3px;
+box-shadow: 0px 3px 6px 0px rgba(112, 112, 112, 1);
 /* background-color: bisque; */
 }
 
@@ -1176,6 +1175,8 @@ align-items: center;
 -webkit-box-shadow: 5px 5px 30px -15px rgba(204, 204, 204, 1);
 -moz-box-shadow: 5px 5px 30px -15px rgba(204, 204, 204, 1);
 box-shadow: 5px 5px 30px -15px rgba(204, 204, 204, 1);
+background-color: white;
+border-radius: 5px;
 }
 
 .card_profile input,
@@ -1249,6 +1250,11 @@ background-color: #37d83c;
 .btn_cadastrar_receita:hover {
 background-color: #37d83c;
 }
+.main_perfil{
+  display: flex;
+  margin: auto;
+  width: 1200px;
+}
 /*Miguel end*/
 /* Gus Table */
 
@@ -1281,9 +1287,6 @@ height: 30px;
 ;
 }
 
-.void {
-background-color: white;
-}
 
 td .verreceitas {
 text-decoration: none;
