@@ -1347,7 +1347,7 @@ color: white;
 }
 
 td a:hover {
-color: var(--cinza);
+color: #ccc;
 }
 
 .delete button {
