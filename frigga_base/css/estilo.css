@@ -198,7 +198,6 @@ align-items: center;
 }
 
 main {
-background-color: #E8E8E8;
 }
 
 .container {
@@ -230,6 +229,8 @@ padding: 10px;
 font-family: var(--fonte1);
 background-color: white;
 border-radius: 5px;
+box-shadow: 0px 0px 6px 0px rgb(206, 193, 206);
+margin-top: -4px;
 
 }
 .nav-p-isa{
@@ -281,7 +282,6 @@ background-color: white;
 padding: 10px 15px;
 text-align: center;
 margin-bottom: 30px;
-border: 1px solid #707070;
 margin-top: 30px;
 width: 250px;
 }
@@ -507,7 +507,7 @@ width: 250px;
 /*css Isabella Produtos*/
 
 main {
-  background-color: #e8e8e8;
+  
   }
   .container_geral {
   display: flex;
@@ -532,8 +532,9 @@ main {
   margin-bottom: 20px;
   padding-bottom: 20px;
   padding-top: 10px;
-  border: 3px solid #08D10F;
-  border-radius: 5px;
+  border: 2px solid #FFFFFF;
+  border-radius: 3px;
+  box-shadow: 0px 0px 12px 0px rgb(206, 193, 206);
   }
   .categ h2 {
   text-align: center;
@@ -647,6 +648,8 @@ main {
     background-color: white;
     border-radius: 5px;
     margin-bottom: 40px;
+    box-shadow: 0px 0px 6px 0px rgb(206, 193, 206);
+    margin-top: -4px;
     }
     
     .nav-r p {
@@ -690,7 +693,6 @@ main {
     }
     
     main {
-    background-color: #e8e8e8;
     }
     
     .container_receitas {
@@ -766,7 +768,10 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 75vh;
+  height: 60vh;
+  background-attachment: fixed;
+  position: relative;
+  top: 10px;
 }
 
 .receita-text1  h3{
