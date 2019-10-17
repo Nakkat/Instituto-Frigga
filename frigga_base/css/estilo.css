@@ -785,6 +785,11 @@ main {
 .receita-text1{
   padding: 30px;
   padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1200px;
+  margin: auto;
 }
 
     @media  (max-width: 1169px){
