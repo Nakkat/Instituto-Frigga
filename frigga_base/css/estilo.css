@@ -1351,13 +1351,6 @@ width: 600px;
 text-align: center;
 font-family: var(--fonte2);
 }
-
-
-
-
-
-
-
 .depoimento {
 display: flex;
 flex-direction: column;
@@ -1444,8 +1437,8 @@ width: 550px;
         }
         .direita-galeria img
        {
-        width: 400px;
-        height: 300px;
+        width: 430px;
+        height: 350px;
         }
         .esquerda-galeria {
         width: 450px;
@@ -1466,6 +1459,7 @@ width: 550px;
       }
     .container-assunto1 img, .container-assunto2 img{
       padding-top: 50px;
+      padding-bottom: 30px;
     }
     .container-depoimento{
       width: 500px;
