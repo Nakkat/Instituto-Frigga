@@ -532,8 +532,10 @@ main {
   margin-bottom: 20px;
   padding-bottom: 20px;
   padding-top: 10px;
-  border: 2px solid #FFFFFF;
+  border: 1px solid #FFFFFF;
   border-radius: 3px;
+  border-bottom-color: #d3d3d3;
+  padding-bottom: 45px;
   }
   .categ h2 {
   text-align: center;
