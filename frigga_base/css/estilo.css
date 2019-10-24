@@ -1327,23 +1327,24 @@ width: 60vw;
 
 /*  Quem somos */
 /*Larissa*/
-.container-assunto1 {
+.container-assunto1, .container-assunto2{
 width: 1200px;
 margin: auto;
 display: flex;
 justify-content: space-between;
 align-items: center;
 }
-.container-assunto1 img {
+.container-assunto1 img, .container-assunto2 img{
 width: 600px;
+height: 450px;;
 margin: auto;
 }
-.container-assunto1 h1 {
+.container-assunto1 h1{
 text-align: center;
 font-family: var(--font1);
 width: 600px;
 }
-.container-assunto1 h2 {
+.container-assunto1 h2, .container-assunto2 h2{
 text-align: center;
 font-family: var(--font1);
 width: 600px;
@@ -1415,6 +1416,7 @@ width: 550px;
     width: 1000px;
     }
     .container-assunto1 h2,
+    .container-assunto2 h2,
     .container-assunto1 h1, 
     .container-assunto1 img{
       width: 500px;
@@ -1437,8 +1439,8 @@ width: 550px;
         }
         .direita-galeria img
        {
-        width: 400px;
-        height: 300px;
+        width: 430px;
+        height: 350px;
         }
         .esquerda-galeria {
         width: 450px;
@@ -1447,15 +1449,19 @@ width: 550px;
   }
 
   @media(max-width: 767px) {
-    .container-assunto1{
+    .container-assunto1, .container-assunto2{
       width: 500px;
       display: flex;
       flex-direction: column;
       justify-content: center; 
       padding-bottom: 100px;
       }
-    .container-assunto1 img{
+      .container-assunto2{
+        flex-direction: column-reverse;
+      }
+    .container-assunto1 img, .container-assunto2 img{
       padding-top: 50px;
+      padding-bottom: 30px;
     }
     .container-depoimento{
       width: 500px;
