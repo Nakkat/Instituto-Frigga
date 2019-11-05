@@ -694,28 +694,37 @@ width: 250px;
   display: none ;
 }
 /*css  responsivo mobile receitas1*/
-@media(max-width: 1169px){
 
+/* RESPONSIVO MENU CATEGORIA*/
+@media(max-width: 1169px){
+  .container-categorias{
+    width: 900px;
+  }
+  .categorias{
+    width: 850px;  
+  }
+  .container-receitas{
+    width: 850px;
+    justify-content: space-around;
+  }
 }
 @media(max-width: 767px){
-  .container_geral{
-    display: flex;
-    flex-direction: column;
-  }
-  .container_mobile, .categorias_mobile, .categ_mobile{
-    display: block ;
-  }
-  .container_mobile{
+  .container_mobile, .categ_mobile{
+    display: block;
+    width: 90vw; 
     margin: auto;
   }
   .categorias_mobile{
     display: flex;
-    width: 80vw;
+  }
+  .categ_mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .categ_mobile p{
     padding-bottom: 5px;
-  }
-
+  } /*FIM ALTERAÇÃO MENU CATEGORIA CATEGORIA*/
   .container-receitas{
     width: 350px;
     margin: auto;
@@ -770,16 +779,6 @@ width: 250px;
   width: 1200px;
   margin: auto;
   margin-top: -120px;
-}
-
-    @media  (max-width: 1169px){
-.banner-receita1{
-  display: none;
-}
-.container-produtosl{ /*Não está sendo aplicado -- OBS Possui uma letra a mais*/
-  width: 100px;
- }
-  
 }
 /* login */
 
