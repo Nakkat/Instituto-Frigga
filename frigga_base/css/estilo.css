@@ -505,10 +505,6 @@ width: 250px;
 
 /* Produtos */
 /*css Isabella Produtos*/
-
-main {
-  
-  }
   .container_geral {
   display: flex;
   flex-direction: column;
@@ -540,18 +536,14 @@ main {
   .categ h2 {
   text-align: center;
   }
-
  /*incluido miguel /*esta classe foi adicionada e colocada junto a container produtos no html*/
   .container-produtos-isa{ 
     width: 1200px;
     margin: auto;
   }
-  
   .container-produtos{ 
   margin-top: 25px;
   }
-
-  
   .container_mobile, .categorias_mobile, .categ_mobile{
     display: none ;
   }
@@ -559,38 +551,30 @@ main {
   
   
   /*css Isabella, responsivo mobile produtos*/
-  
   @media(max-width: 767px){
   .container_geral{
     flex-direction: column;
   }
-  
   .container_mobile, .categorias_mobile, .categ_mobile{
   display: flex ;
   }
-  
   .container_mobile{
   background-color: white;
   margin: 20px 50px;
   padding: 20px;
-  border: 2px solid #08D10F;
-  border-radius: 5px;
-  width: 380px;
+  width: 450px;
   height: 200px;
-   
-  }
+  }  
   .categ_mobile {
     padding-top: 20px;
     display: block;
-    
     margin: 8px;
     margin-top: 30px;
-  }
-  
+  }  
   .categ_mobile p{
     text-align: center;
+    font-size: 18px;
   }
-  
   .container-categorias{
     display: none;
   }
@@ -691,10 +675,6 @@ main {
     background-color: var(--verde);
     color: #363636;
     }
-    
-    main {
-    }
-    
     .container_receitas {
     display: flex;
     margin: auto;
@@ -714,36 +694,28 @@ main {
   display: none ;
 }
 /*css  responsivo mobile receitas1*/
+@media(max-width: 1169px){
 
+}
 @media(max-width: 767px){
   .container_geral{
+    display: flex;
     flex-direction: column;
   }
-  
   .container_mobile, .categorias_mobile, .categ_mobile{
-  display: flex ;
+    display: block ;
   }
   .container_mobile{
-  background-color: white;
-  margin: 20px 50px;
-  padding: 20px;
-  border: 2px solid #08D10F;
-  border-radius: 5px;
-  width: 380px;
-  height: 200px;
+    margin: auto;
   }
-  .categ_mobile {
-    padding-top: 20px;
-    display: block;
-    margin: 8px;
-    margin-top: 30px;
+  .categorias_mobile{
+    display: flex;
+    width: 80vw;
   }
   .categ_mobile p{
-    text-align: center;
+    padding-bottom: 5px;
   }
-  .container-categorias{
-    display: none;
-  }
+
   .container-receitas{
     width: 350px;
     margin: auto;
@@ -780,12 +752,10 @@ main {
 }
 
 .receita-text1  h3{
-  padding-top: 20px;
   font-family: (var(--fonte1));
   font-size: 42px;
   z-index: 0;
 }
-
 .receita-text1 p{
   padding-top: 30px;
   font-family: (var(--fonte2));
