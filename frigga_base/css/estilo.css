@@ -538,6 +538,10 @@ width: 250px;
   .categ h2 {
   text-align: center;
   }
+  .categ img:hover,
+  .categ_mobile img:hover{
+    opacity: 0.8;
+  }
  /*incluido miguel /*esta classe foi adicionada e colocada junto a container produtos no html*/
   .container-produtos-isa{ 
     width: 1200px;
