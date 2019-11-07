@@ -535,6 +535,31 @@ width: 250px;
   border-bottom-color: #d3d3d3;
   padding-bottom: 45px;
   }
+
+  .categ_1, .categ_2, .categ_3, .categ_4{
+    width: 200px; 
+    height: 200px;
+    border-radius: 100%;
+    background-size: 100%;
+    background-position: center; /*Direção do zoom do centro para fora*/
+    cursor: pointer;
+    transition: background-size 0.5s ease-in;
+    -moz-transition: background-size 0.5s ease-in;
+    -ms-transition: background-size 0.5s ease-in;
+    -o-transition: background-size 0.5s ease-in; 
+    -webkit-transition: background-size 0.5s ease-out;
+  }
+  
+  .categ_1:hover, .categ_2:hover, .categ_3:hover, .categ_4:hover{
+  background-size: 120%;  
+  opacity: 0.8;  
+}
+.categ_1{ background-image: url(../IMGS/frutas.png);  }
+.categ_2{ background-image: url(../IMGS/abacaxi.png); }
+.categ_3{ background-image: url(../IMGS/orta.png);    }
+.categ_4{ background-image: url(../IMGS/cenouras.png);}
+  
+  /* Aplicado em receitas */
   .categ h2 {
   text-align: center;
   }
@@ -542,6 +567,8 @@ width: 250px;
   .categ_mobile img:hover{
     opacity: 0.8;
   }
+  /* / aplicar padrao acima */
+
  /*incluido miguel /*esta classe foi adicionada e colocada junto a container produtos no html*/
   .container-produtos-isa{ 
     width: 1200px;
@@ -599,12 +626,9 @@ width: 250px;
   font-size: 1.5em;
   padding-top: 30px;
       }
-  
   }
-  
   /*mobile Isabella, fim*/
   
-
 
 /*Larissa - receitas*/
   .card_receitas input {
@@ -621,14 +645,12 @@ width: 250px;
     .container-receitas h3{
       margin-bottom: 40px;
     }
-    
     .card-receitas {
     height: 350px;
     margin-top: 20px;
     border-radius: 5px;
     box-shadow: 0px 3px 6px 0px rgba(112, 112, 112, 1);
     }
-    
     .nav-r {
     display: flex;
     justify-content: space-between;
@@ -695,7 +717,6 @@ width: 250px;
     font-size: 37px;
     font-family: var(--fonte1);
 }
-
 .container_mobile, .categorias_mobile, .categ_mobile{
   display: none ;
 }
