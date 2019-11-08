@@ -44,6 +44,15 @@ width: 700px;
 margin: auto;
 list-style: none;
 }
+.menu a:hover{
+    transition: 200ms;
+    border-bottom: 1.5px solid var(--branco);
+    padding-bottom: 3.5px;
+}
+.ativo{
+  border-bottom: 1.5px solid #000;
+  padding-bottom: 1.5px;
+} 
 .menu a {
 text-decoration: none;
 color: #363636;
