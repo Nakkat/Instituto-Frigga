@@ -535,8 +535,23 @@ width: 250px;
   border-bottom-color: #d3d3d3;
   padding-bottom: 45px;
   }
-
-  .categ_1, .categ_2, .categ_3, .categ_4{
+  .container-categorias h2{
+    margin-bottom: 15px;
+  }
+  .bar_bar{
+    width: 100px;
+    margin: auto;
+    border: solid #000 0.5px;
+    text-align: center;
+  }
+  .align_bar{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 15px;  
+  }
+/* Categorias produtos e receitas */
+  .categ_1, .categ_2, .categ_3, .categ_4, 
+  .categ_5, .categ_6, .categ_7, .categ_8{
     width: 200px; 
     height: 200px;
     border-radius: 100%;
@@ -550,7 +565,8 @@ width: 250px;
     -webkit-transition: background-size 0.5s ease-out;
   }
   
-  .categ_1:hover, .categ_2:hover, .categ_3:hover, .categ_4:hover{
+  .categ_1:hover, .categ_2:hover, .categ_3:hover, .categ_4:hover,
+  .categ_5:hover, .categ_6:hover, .categ_7:hover, .categ_8:hover{
   background-size: 120%;  
   opacity: 0.8;  
 }
@@ -558,11 +574,14 @@ width: 250px;
 .categ_2{ background-image: url(../IMGS/abacaxi.png); }
 .categ_3{ background-image: url(../IMGS/orta.png);    }
 .categ_4{ background-image: url(../IMGS/cenouras.png);}
-  
+
+.categ_5{ background-image: url(../IMGS/massas.png);  }
+.categ_6{ background-image: url(../IMGS/sopa.png); }
+.categ_7{ background-image: url(../IMGS/frutas.png);    }
+.categ_8{ background-image: url(../IMGS/fruit.png);}
+
   /* Aplicado em receitas */
-  .categ h2 {
-  text-align: center;
-  }
+ 
   .categ img:hover,
   .categ_mobile img:hover{
     opacity: 0.8;
