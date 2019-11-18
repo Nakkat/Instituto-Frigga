@@ -163,14 +163,13 @@ opacity: 0.6;
 /* Início do Main By Gus */
 
 .banner {
-background-image: url(../IMGS/BANNER1.jpg);
-height: 650px;
-width: 100%;
-background-size: cover;
-margin: auto;
-display: flex;
-justify-content: flex-start;
-align-items: center;
+  background-image: url(../IMGS/BANNER1.jpg);
+  height: 650px;
+  width: 100%;
+  background-size: cover;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 .titulos{
     display: flex;
@@ -187,6 +186,16 @@ align-items: center;
     font-size: 30px;
 
 }
+.bannerTitle{
+    font-family: var(--fonte1);
+    font-size: 60px;
+    color: white;
+    line-height: 1.8;
+    margin-left: 40px;
+    word-spacing: 10px;
+    font-weight: bold;
+    margin-bottom: 90px;
+}
 .banner-txt{
     font-family: var(--fonte2);
     font-size: 35px;
@@ -196,10 +205,22 @@ align-items: center;
     word-spacing: 10px;
     font-weight: bold;
 }
-
-main {
+.banner a{
+  font-family: var(--fonte2);
+    font-size: 45px;
+    line-height: 1.8;
+    margin-left: 40px;
+    word-spacing: 8px;
+    color: #363636;
+    text-decoration: none;
+    align-self: center;
+    margin-top: 100px;
+    margin-right: 350px;
 }
-
+.banner a:hover{
+  color: black;
+  font-size: 48px;
+}
 .container {
 display: flex;
 justify-content: space-between;
@@ -386,6 +407,12 @@ height: 280px;
 @media(max-width: 767px) {
 .navbar-container {
 display: none;
+}
+.banner a{
+  display: none;
+}
+.bannerTitle{
+  display: none;
 }
 main{
     margin-top: 75px;
@@ -1069,6 +1096,12 @@ body {
 @media (max-width: 1169px) {
   .profile_icone img{
   display: none;
+  }
+  .banner a {
+    display: none;
+  }
+  .bannerTitle{
+    display: none;
   }
   .profile {
   width: 700px;
