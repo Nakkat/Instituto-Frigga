@@ -65,7 +65,7 @@
       </section>
 
       <section class="direita_login">
-          <h1> Cadastro </h1>
+        <h1> Cadastro </h1>
         <form method="POST" id="form_cadastro">
           <div class="form-control">
             <div class="input-group radio-group">
@@ -87,9 +87,9 @@
                 name="senha" id="senha" required />
             </div>
             <div class="input-group">
-              <label for="cnpj">Cnpj</label>
+              <label for="cnpj">Cpf/Cnpj</label>
               <input class="input_login" type="text" placeholder="Ex: 123.321.45-10" aria-label="Digite seu Cnpj"
-                name="cnpj" id="cnpj" required />
+                name="cpf/cnpj" id="cpf/cnpj" required />
             </div>
             <div class="input-group">
               <label for="nome">Nome</label>
@@ -105,9 +105,19 @@
           <div class="form-control">
             <h3>Endereço</h3>
             <div class="input-group">
-              <label for="cep">Cep</label>
-              <input class="input_login" type="text" placeholder="Ex: 02789-089" aria-label="Digite seu cep" name="cep"
-                id="cep" required />
+              <label for="cidade">Cidade</label>
+              <input class="input_login" type="text" placeholder="Ex: SP" aria-label="Digite sua cidade" name="cidade"
+                id="cidade" required />
+            </div>
+            <div class="input-group">
+              <label for="cnpj">Cep</label>
+              <input class="input_login" type="text" placeholder="Ex: 080-60-090" aria-label="Digite seu Cnpj"
+                name="cep" id="cep" required />
+            </div>
+            <div class="input-group">
+              <label for="bairro">Bairro</label>
+              <input class="input_login" type="text" placeholder="Ex: 02789-089" aria-label="Digite seu bairro"
+                name="bairro" id="bairro" required />
             </div>
             <div class="input-group">
               <label for="endereco">Endereço</label>
@@ -118,21 +128,6 @@
               <label for="numero">Número</label>
               <input class="input_login" type="text" placeholder="Ex: 138 " aria-label="Digite seu número" name="numero"
                 id="numero" required />
-            </div>
-            <div class="input-group">
-              <label for="bairro">Bairro</label>
-              <input class="input_login" type="text" placeholder="Ex: 02789-089" aria-label="Digite seu bairro"
-                name="bairro" id="bairro" required />
-            </div>
-            <div class="input-group">
-              <label for="estado">Estado</label>
-              <input class="input_login" type="text" placeholder="Ex: Sao Paulo" aria-label="Digite seu estado"
-                name="estado" id="estado" required />
-            </div>
-            <div class="input-group">
-              <label for="cidade">Cidade</label>
-              <input class="input_login" type="text" placeholder="Ex: SP" aria-label="Digite sua cidade" name="cidade"
-                id="cidade" required />
             </div>
           </div>
           <div class="buttonContainer">
